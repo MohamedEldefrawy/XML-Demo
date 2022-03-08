@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<Library>
+    <Location/>
+    <Description/>
+    <Librarian/>
+    <Books>
+        <Book title="first book" isbn="123123124">
+            <Authors>
+                <Author name="A.K.T"/>
+            </Authors>
+            <Preface value="interesting preface"/>
+            <Parts>
+                <Part title="main part">
+                    <Chapters>
+                        <Chapter title="chapter 1">
+                            <Summary>
+
+                            </Summary>
+                            <Sections>
+                                <Section>
+                                    <Paragraph>
+                                        first
+                                    </Paragraph>
+                                </Section>
+                                <Section>
+                                    <Paragraph>
+                                        second
+                                    </Paragraph>
+                                </Section>
+                            </Sections>
+                        </Chapter>
+                    </Chapters>
+                </Part>
+            </Parts>
+        </Book>
+        <Book title="second book" isbn="241234">
+            <Authors>
+                <Author name="A.K.T"/>
+            </Authors>
+            <Preface value="interesting preface 2"/>
+            <Parts>
+                <Part title="main part 2">
+                    <Chapters>
+                        <Chapter title="chapter 1">
+                            <Summary>
+
+                            </Summary>
+                            <Sections>
+                                <Section>
+                                    <Paragraph>
+                                        first
+                                    </Paragraph>
+                                </Section>
+                                <Section>
+                                    <Paragraph>
+                                        second
+                                    </Paragraph>
+                                </Section>
+                            </Sections>
+                        </Chapter>
+                        <Chapter title="chapter 2">
+                            <Summary>
+
+                            </Summary>
+                            <Sections>
+                                <Section>
+                                    <Paragraph>
+                                        first
+                                    </Paragraph>
+                                </Section>
+                                <Section>
+                                    <Paragraph>
+                                        second
+                                    </Paragraph>
+                                </Section>
+                            </Sections>
+                        </Chapter>
+                    </Chapters>
+                </Part>
+            </Parts>
+        </Book>
+    </Books>
+</Library>

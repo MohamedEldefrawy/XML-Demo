@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/css" href="./css/employee.css"?>
+
+<Employees>
+    <Employee>
+        <Name>Mohamed Ahmed</Name>
+        <Email>mohamed@gmail.com</Email>
+        <Phones>
+            <phone>
+                <type>Home</type>
+                <value>1234567</value>
+            </phone>
+            <phone>
+                <type>Mobile</type>
+                <value>0101010101</value>
+            </phone>
+        </Phones>
+        <Addresses>
+            <Address>
+                <Street>adeeb</Street>
+                <Building-no>9</Building-no>
+                <Region>Alex</Region>
+                <City>Alex</City>
+                <Country>EG</Country>
+            </Address>
+        </Addresses>
+    </Employee>
+    <Employee>
+        <Name>Mohamed Ahmed</Name>
+        <Email>mohamed@gmail.com</Email>
+        <Phones>
+            <phone>
+                <type>Home</type>
+                <value>1234567</value>
+            </phone>
+            <phone>
+                <type>Mobile</type>
+                <value>0101010101</value>
+            </phone>
+        </Phones>
+        <Addresses>
+            <Address>
+                <Street>adeeb</Street>
+                <Building-no>9</Building-no>
+                <Region>Alex</Region>
+                <City>Alex</City>
+                <Country>EG</Country>
+            </Address>
+        </Addresses>
+    </Employee>
+</Employees>
