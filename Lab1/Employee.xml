@@ -1,5 +1,7 @@
 <?xml version="1.0"?>
 <?xml-stylesheet type="text/css" href="./css/employee.css"?>
+<!DOCTYPE Employees SYSTEM "employee.dtd">
+
 
 <Employees>
     <Employee>
@@ -7,12 +9,12 @@
         <Email>mohamed@gmail.com</Email>
         <Phones>
             <phone>
-                <type>Home</type>
-                <value>1234567</value>
+                <Type>Home</Type>
+                <Value>1234567</Value>
             </phone>
             <phone>
-                <type>Mobile</type>
-                <value>0101010101</value>
+                <Type>Mobile</Type>
+                <Value>0101010101</Value>
             </phone>
         </Phones>
         <Addresses>
@@ -30,12 +32,12 @@
         <Email>mohamed@gmail.com</Email>
         <Phones>
             <phone>
-                <type>Home</type>
-                <value>1234567</value>
+                <Type>Home</Type>
+                <Value>1234567</Value>
             </phone>
             <phone>
-                <type>Mobile</type>
-                <value>0101010101</value>
+                <Type>Mobile</Type>
+                <Value>0101010101</Value>
             </phone>
         </Phones>
         <Addresses>
