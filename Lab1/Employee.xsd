@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="Employees" type="EmployeesType"/>
+  <xs:complexType name="phoneType">
+    <xs:sequence>
+      <xs:element name="Type">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="Home"/>
+            <xs:enumeration value="Mobile"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="Value">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="1234567"/>
+            <xs:enumeration value="0101010101"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="PhonesType">
+    <xs:sequence>
+      <xs:element type="phoneType" name="phone" maxOccurs="unbounded" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="AddressType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="Street"/>
+      <xs:element type="xs:string" name="Building-no"/>
+      <xs:element type="xs:string" name="Region"/>
+      <xs:element type="xs:string" name="City"/>
+      <xs:element type="xs:string" name="Country"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="AddressesType">
+    <xs:sequence>
+      <xs:element type="AddressType" name="Address"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="EmployeeType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="Name"/>
+      <xs:element type="xs:string" name="Email"/>
+      <xs:element type="PhonesType" name="Phones"/>
+      <xs:element type="AddressesType" name="Addresses"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="EmployeesType">
+    <xs:sequence>
+      <xs:element type="EmployeeType" name="Employee" maxOccurs="unbounded" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>
