@@ -48,4 +48,50 @@
             </Address>
         </Addresses>
     </Employee>
+    <Employee>
+        <Name>Mohamed Ahmed</Name>
+        <Email>mohamed@gmail.com</Email>
+        <Phones>
+            <phone>
+                <Type>Home</Type>
+                <Value>1234567</Value>
+            </phone>
+            <phone>
+                <Type>Mobile</Type>
+                <Value>0101010101</Value>
+            </phone>
+        </Phones>
+        <Addresses>
+            <Address>
+                <Street>adeeb</Street>
+                <Building-no>9</Building-no>
+                <Region>Alex</Region>
+                <City>Alex</City>
+                <Country>EG</Country>
+            </Address>
+        </Addresses>
+    </Employee>
+    <Employee>
+        <Name>Mohamed Ahmed</Name>
+        <Email>mohamed@gmail.com</Email>
+        <Phones>
+            <phone>
+                <Type>Home</Type>
+                <Value>1234567</Value>
+            </phone>
+            <phone>
+                <Type>Mobile</Type>
+                <Value>0101010101</Value>
+            </phone>
+        </Phones>
+        <Addresses>
+            <Address>
+                <Street>adeeb</Street>
+                <Building-no>9</Building-no>
+                <Region>Alex</Region>
+                <City>Alex</City>
+                <Country>EG</Country>
+            </Address>
+        </Addresses>
+    </Employee>
 </Employees>
